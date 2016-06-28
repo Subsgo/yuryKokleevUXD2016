@@ -18,4 +18,4 @@ arr.remove = function(val){
     return this;
 }
 console.log(arr.remove(1));
-// attached as a method but also as a property, why?
+// attached as a method but also as a property, how to avoid ?
