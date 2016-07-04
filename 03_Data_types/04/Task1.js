@@ -10,9 +10,8 @@
 var stringText = 'sample'
 
 function reverseString(a) {
-    a = a.split('');
-    a.reverse();
-    return a.join('');
+    a = a.split('').reverse().join('');
+    return a;
 }
 
 console.log(reverseString(stringText));
